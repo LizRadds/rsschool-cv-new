@@ -22,8 +22,18 @@ I'm the coding beginner.  Краткая информация о себе (ва�
 ---
 Code example will be there soon...
 
-    function multiply (a, b) {
-    return a * b;
+    function nicknameGenerator(name){
+        let vowels = ["a","e","i","o","u"];
+        
+        if (name.length < 4){
+            return ("Error: Name too short")
+        }
+        else if ("aeiou".includes(name[2])) {
+            return name.slice(0,4);
+        }
+        else {
+            return name.slice(0,3)
+        }
     }
 ## **Experience**
 ---
