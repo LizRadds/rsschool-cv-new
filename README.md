@@ -1,1 +1,1 @@
-# rsschool-cv
+https://lizradds.github.io/rsschool-cv/cv
